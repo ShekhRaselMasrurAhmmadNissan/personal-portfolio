@@ -55,7 +55,10 @@ function App() {
 
 	return (
 		<div className="relative">
-			<section id="navbar" className="sticky top-0 bg-white">
+			<section
+				id="navbar"
+				className="sticky top-0 bg-white z-50 shadow-xl"
+			>
 				<div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
 					<div className="relative flex items-center justify-between">
 						<a
